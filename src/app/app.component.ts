@@ -6,7 +6,7 @@ import { EventBindExampleComponent } from './components/event-bind-example/event
 
 @Component({
   selector: 'app-root',
-  imports: [PersonTableComponent, EventBindExampleComponent],
+  imports: [PersonTableComponent, EventBindExampleComponent, RouterOutlet, RouterLink],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
