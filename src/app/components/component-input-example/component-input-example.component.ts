@@ -10,19 +10,19 @@ import { PersonTableComponent } from '../person-table/person-table.component';
 })
 export class ComponentInputExampleComponent {
   person0: Person = {
-    givenName: "John",
-    surName: "Smith",
+    givenName: "Christodoulos",
+    surName: "Fragoudakis",
     age: 55,
-    email: "asda@gmail.com",
+    email: "chfra@aueb.gr",
     address: "New York, USA"
   }
 
   person1: Person = {
-    givenName: "Maria",
-    surName: "Smith",
-    age: 55,
-    email: "msmith@gmail.com",
-    address: "Athens, Gr"
+    givenName: "John",
+    surName: "Doe",
+    age: 45,
+    email: "john@aueb.gr",
+    address: "Athens, Greece"
   }
 
 }
