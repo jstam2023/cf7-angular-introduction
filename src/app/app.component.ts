@@ -6,7 +6,7 @@ import { EventBindExampleComponent } from './components/event-bind-example/event
 
 @Component({
   selector: 'app-root',
-  imports: [PersonTableComponent],
+  imports: [PersonTableComponent, EventBindExampleComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
@@ -35,7 +35,7 @@ export class AppComponent {
     givenName: "John",
     surName: "Doe",
     age: 32,
-    email: "john@aueb.gr",
+    email: "john@example.gr",
     address: 'New York, USA'
   }
 
